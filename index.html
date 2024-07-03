@@ -1,69 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>AT Cellphone Store</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOUIS VUITTON ACCESSORIES</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container">
         <div class="row">
             <div class="col-12 text-center">
-                <h2>AT Cellphone Store</h2>
+                <h2>LOUIS VUITTON</h2>
                 <hr class="hr" />
             </div>
         </div>
+
         <div class="row">
             <div class="col-4 text-center">
-                <label id="product1"> Samsung S21 </label>
-                <img src="s21.png" style="width:400px;height:500px;" class="img-thumbnail"/><br>
+                <label id="product1">Luxury High Tech Accessories for Women</label>
+                <img src="lh.png" style="width: 400px; height: 500px;" class="img-thumbnail"><br>
                 <label for="product1" id="price1">27000.00</label>
-                <input type="number" class="form-control" id="qty1" placeholder="Enter quantity"/><br>
+                <input type="number" class="form-control" id="qty1" placeholder="Enter quantity"><br>
             </div>
             <div class="col-4 text-center">
-                <label id="product2"> Samsung S22</label>
-                <img src="s22.png" style="width:400px;height:500px;" class="img-thumbnail"/><br>
-                <label for="product2" id="price2">37000.00</label>
-                <input type="number" class="form-control" id="qty2" placeholder="Enter quantity"/><br>
+                <label id="product2">Men's Leather Wallet</label>
+                <img src="wallet.png" style="width: 400px; height: 500px;" class="img-thumbnail"><br>
+                <label for="product2" id="price2">1500.00</label>
+                <input type="number" class="form-control" id="qty2" placeholder="Enter quantity"><br>
             </div>
             <div class="col-4 text-center">
-                <label id="product3"> iPhone 12</label>
-                <img src="iphone12.png" style="width:400px;height:500px;" class="img-thumbnail"/><br>
-                <label for="product3" id="price3">55000.00</label>
-                <input type="number" class="form-control" id="qty3" placeholder="Enter quantity"/><br>
+                <label id="product3">Silk Scarf</label>
+                <img src="scarf.png" style="width: 400px; height: 500px;" class="img-thumbnail"><br>
+                <label for="product3" id="price3">500.00</label>
+                <input type="number" class="form-control" id="qty3" placeholder="Enter quantity"><br>
             </div>
         </div>
         <div class="row">
             <div class="col-4 text-center">
-                <label id="product4"> iPhone 13</label>
-                <img src="iphone13.png" style="width:400px;height:500px;" class="img-thumbnail"/><br>
-                <label for="product4" id="price4">60000.00</label>
-                <input type="number" class="form-control" id="qty4" placeholder="Enter quantity"/><br>
+                <label id="product4">Men's Sunglasses</label>
+                <img src="sunglasses.png" style="width: 400px; height: 500px;" class="img-thumbnail"><br>
+                <label for="product4" id="price4">2000.00</label>
+                <input type="number" class="form-control" id="qty4" placeholder="Enter quantity"><br>
+            </div>
+
+            <div class="col-4 text-center">
+                <label id="product5">Women's Handbag</label>
+                <img src="handbag.png" style="width: 400px; height: 500px;" class="img-thumbnail"><br>
+                <label for="product5" id="price5">3500.00</label>
+                <input type="number" class="form-control" id="qty5" placeholder="Enter quantity"><br>
             </div>
             <div class="col-4 text-center">
-                <label id="product5"> Google Pixel 6</label>
-                <img src="pixel6.png" style="width:400px;height:500px;" class="img-thumbnail"/><br>
-                <label for="product5" id="price5">45000.00</label>
-                <input type="number" class="form-control" id="qty5" placeholder="Enter quantity"/><br>
-            </div>
-            <div class="col-4 text-center">
-                <label id="product6"> OnePlus 9</label>
-                <img src="oneplus9.png" style="width:400px;height:500px;" class="img-thumbnail"/><br>
-                <label for="product6" id="price6">42000.00</label>
-                <input type="number" class="form-control" id="qty6" placeholder="Enter quantity"/><br>
+                <label id="product6">Travel Luggage Set</label>
+                <img src="luggage.png" style="width: 400px; height: 500px;" class="img-thumbnail"><br>
+                <label for="product6" id="price6">12000.00</label>
+                <input type="number" class="form-control" id="qty6" placeholder="Enter quantity"><br>
             </div>
         </div>
         <div class="row">
+            <div class="col-4 text-center">
+                <label id="product7">Men's Loafers</label>
+                <img src="loafers.png" style="width: 400px; height: 500px;" class="img-thumbnail"><br>
+                <label for="product7" id="price7">3000.00</label>
+                <input type="number" class="form-control" id="qty7" placeholder="Enter quantity"><br>
+            </div>
+
+            <!-- Orders and Checkout Section -->
             <div class="col-4">
-                <label for="carts"> Orders </label><br>
-                <textarea class="form-control" rows="29" id="carts" cols="200" readonly style="width:350px;height: 400px;font-size: 12px;"> </textarea>
-                <input type="text" class="form-control border-0" id="total" readonly placeholder="Total"/>
-                <input type="number" class="form-control" id="cash" placeholder="Cash Tendered"/>
-                <input type="text" class="form-control border-0" id="change" readonly placeholder="Change"/>
+                <label for="carts">Orders</label><br>
+                <textarea class="form-control" rows="29" id="carts" cols="200" readonly style="width: 350px; height: 400px; font-size: 12px;"></textarea>
+                <input type="text" class="form-control border-0" id="total" readonly placeholder="Total">
+                <input type="number" class="form-control" id="cash" placeholder="Cash Tendered">
+                <input type="text" class="form-control border-0" id="change" readonly placeholder="Change">
                 <button class="btn btn-primary mt-3" onclick="finishOrder()">Finish Order</button>
             </div>
         </div>
     </div>
+
+    <!-- Bootstrap Bundle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- Your Custom JavaScript -->
     <script src="index.js"></script>
 </body>
 </html>
+
